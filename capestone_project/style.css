@@ -1,0 +1,39 @@
+.intro-name{
+    background-image: url(background.jpg);
+    height: 60vh;
+}
+
+.font{
+    font-family: serif;
+    font-size: 60px;
+    text-align: center;
+    padding-top: 100px;
+    
+}
+
+.intro-name {
+  position: relative; /* Allows absolute positioning inside */
+  text-align: center; /* Keeps text centered */
+  padding: 40px;
+}
+
+.font {
+  position: relative;
+  display: inline-block;
+}
+
+.horse-sticker {
+    position: absolute;
+    left: -537px;
+    top: 200.297px;
+    transform: translateY(-50%);
+    width: 521px;
+    height: 392px;
+    z-index: 1;
+}
+
+.hero-section {
+  position: relative;  
+  z-index: 10;         
+}
+
